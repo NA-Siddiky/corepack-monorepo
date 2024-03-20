@@ -1,0 +1,17 @@
+{
+  "name": "@root/core",
+  "private": true,
+  "scripts": {
+    "android": "cd apps/android/unzip_blog_app && yarn start",
+    "web": "cd apps/web/unzip_blog_web && yarn dev",
+    "build": "yarn lerna run build",
+    "clean": "yarn lerna clean"
+  },
+  "workspaces": {
+    "packages": [
+      "apps/**",
+      "packages/**"
+    ]
+  },
+  "packageManager": "yarn@4.1.1"
+}

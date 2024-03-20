@@ -1,0 +1,25 @@
+{
+  "name": "@soppiya/elemix",
+  "version": "1.0.0",
+  "description": "Utility library",
+  "repository": "https://github.com/soppiyaCMS/admin.git",
+  "author": "Soppiya",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "files": [
+    "dist/**/*"
+  ],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.3",
+    "react": "^18.2.0",
+    "rollup": "^3.29.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "^5.2.2"
+  }
+}
